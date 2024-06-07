@@ -1,0 +1,53 @@
+@charset "UTF-8";
+html {
+	background-image: url("elements/background.png");
+	background-size: 100%;
+}
+#1 {
+	position: static;
+	width: 100%;
+	align-items: center;
+}
+logo {
+	position: absolute;
+}
+#red-line {
+	font-size: 50px;
+	align-content: center;
+	height: auto;
+	color: white;
+	background: #FF0004;
+	text-align: center;
+	font-family: "PizzaPress Fill";
+	margin-top: 10px
+	}
+#pr1 {
+	max-width: inherit;
+	width: 100%;
+	position: static;
+	align-items: center;
+	margin-top: 60px;
+	display:flex;
+	justify-content: center;
+}
+#pr2 {position: static;
+	align-items: center;
+	margin-top: 60px;
+	display:flex;
+	justify-content: center;
+}
+#pr3 {position: static;
+	align-items: center;
+	margin-top: 60px;
+	display:flex;
+	justify-content: center;
+}
+#legal {
+	margin-top: 40px;
+	color: white;
+	text-align: justify;
+	font-size: 10px;
+	align-content: flex-end;
+	margin-left: 30px;
+	margin-right: 30px;
+}
